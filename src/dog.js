@@ -6,7 +6,7 @@ class Doggio {
   }
 
   woof() {
-    console.log(`${this.name} says WOOF!`)
+    return `${this.name} says WOOF!`
   }
 
   set updateWeight(newWeight) {
